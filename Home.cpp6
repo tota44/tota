@@ -1,0 +1,39 @@
+\* My name:Tayseee Yahia Abdalla Mohammed 
+Class:The Second 
+Department:Computer Engineering
+*/
+#include <iostream>
+#include <string>
+int main()
+{
+    int y ,grade
+    string x;
+    char z; 
+    cout<<"enter your name plase: ";
+    getline(cin,x)
+    cout<<"enter your username plase: ";
+    cin>>y;
+    if(z=='A')
+    cout<<"control Engineering"<<endl;
+    else if (z=='T')
+    cout<<"communication Engineering"<<endl;
+    cout<<"enter your grade";
+    cin>>grade;
+    if(grade>=90&&<==100)
+    cout<<"A"<<endl;
+    else if ((grade>=80) &&(grade<90)
+    cout<<"B"<<endl;
+    else if ((grade>=70)&&(grade<70))
+    cout<<"D"<<endl;
+    else if (grade>=60)&&(grade<70))
+    cout<<"D"<<endl;
+    else if (grade>=50)&&(grade<60))
+    cout<<"F"<<endl;
+    cout<<"Name is: "<< y<< endl;
+    cout <<"username is:"<<y <<endl;
+    cout<<"the appreciation  is :"<< grade << endl;
+    cout<<"Department is:"<< z <<endl;
+    return 0;
+}
+
+}
